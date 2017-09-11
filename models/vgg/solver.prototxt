@@ -1,0 +1,14 @@
+net: "models/vgg/train.prototxt"
+test_iter: 361
+test_interval: 1084
+base_lr: 0.0001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 10830
+display: 20
+max_iter: 54150
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 3000
+snapshot_prefix: "models/vgg/vgg_sexy_train"
+solver_mode: GPU
